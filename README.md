@@ -2,17 +2,15 @@
 
 (๑>ᴗ<๑) - "Show to me!!! Come on!!!"
 
-## Based on
-
-[This](https://css-tricks.com/glitch-effect-text-images-svg/) tutorial teach you to create a Glitch Effect.
-
-[This](https://oimo-tools.com/glitch/) are the project with real-time text effect alteration.
-
 ## What was used ?
 
 Sass
 
 `npm install -g sass`
+
+## :runner: To run this project ?
+
+You needs load the project files in a web server, use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for this.
 
 ## Use Sass Preprocessing
 
@@ -26,6 +24,11 @@ Sass
 
 > "...sass would **watch all files in the app/sass folder for changes, and compile CSS to the public/stylesheets folder**..."
 
+## Based on
+
+[This](https://css-tricks.com/glitch-effect-text-images-svg/) tutorial teach you to create a Glitch Effect.
+
+[This](https://oimo-tools.com/glitch/) are the project with real-time text effect alteration.
 
 ### Kaomoji
 

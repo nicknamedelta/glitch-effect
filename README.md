@@ -6,12 +6,12 @@
 
 SASS: `npm install -g sass`
 
-### Use Sass Preprocessing
+### SASS preprocessing:
 
-- watch your source files for changes, and re-compile CSS each time you save your Sass:
+- watch your source files for changes, and re-compile CSS each time you save your Sass: 
   - `sass --watch input.scss output.css`
 
-- watch and output to directories by using folder paths as your input and output:
+- watch and output to directories by using folder paths as your input and output: 
   - `sass --watch assets/sass:assets/css`
 
 * sass would **watch all files in the app/sass folder for changes, and compile CSS to the public/stylesheets folder**

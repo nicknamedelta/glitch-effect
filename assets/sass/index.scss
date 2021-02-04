@@ -70,3 +70,10 @@ body {
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 4s infinite linear alternate-reverse;
 }
+
+@media (max-width: 600px) {
+  .glitch {
+    width: 320px;
+    word-break: break-all;
+  }
+}

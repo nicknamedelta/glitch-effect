@@ -1,13 +1,29 @@
 body {
   background: black;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0 0 0;
 }
 
 .glitch {
   color: white;
-  font-size: 100px;
+  font-size: 80px;
   position: relative;
-  width: 400px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -15,7 +31,7 @@ body {
   $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
-      clip: rect(random(100) + px, 9999px, random(100) + px, 0);
+      clip: rect(random(500) + px, 9999px, random(500) + px, 0);
     }
   }
 }
@@ -24,20 +40,20 @@ body {
   content: attr(data-text);
   position: absolute;
   left: 2px;
-  text-shadow: -1px 0 red;
+  text-shadow: -1px 0 red, -2px 0 blue, -3px 0 green;
   top: 0;
   color: white;
   background: black;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim 2s infinite linear alternate-reverse;
+  animation: noise-anim 4s infinite linear alternate-reverse;
 }
 
 @keyframes noise-anim-2 {
   $steps: 20;
   @for $i from 0 through $steps {
     #{percentage($i*(1/$steps))} {
-      clip: rect(random(100) + px, 9999px, random(100) + px, 0);
+      clip: rect(random(500) + px, 9999px, random(500) + px, 0);
     }
   }
 }
@@ -46,11 +62,11 @@ body {
   content: attr(data-text);
   position: absolute;
   left: -2px;
-  text-shadow: 1px 0 blue;
+  text-shadow: -1px 0 blue, -2px 0 green, -3px 0 red;
   top: 0;
   color: white;
   background: black;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim-2 3s infinite linear alternate-reverse;
+  animation: noise-anim-2 4s infinite linear alternate-reverse;
 }

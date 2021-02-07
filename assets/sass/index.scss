@@ -1,6 +1,15 @@
 body {
+  max-width: 100%;
+  overflow-x: hidden;
   background: black;
   font-family: "Roboto", sans-serif;
+}
+
+#value {
+  background: #f0f0f0;
+  border-radius: 14px;
+  border-color: #000;
+  padding: 10px 10px;
 }
 
 .container {
@@ -46,7 +55,7 @@ body {
   background: black;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim 4s infinite linear alternate-reverse;
+  animation: noise-anim 2.4s infinite linear alternate-reverse;
 }
 
 @keyframes noise-anim-2 {
@@ -68,7 +77,7 @@ body {
   background: black;
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
-  animation: noise-anim-2 4s infinite linear alternate-reverse;
+  animation: noise-anim-2 2.4s infinite linear alternate-reverse;
 }
 
 @media (max-width: 600px) {

@@ -21,5 +21,6 @@ SASS: `npm install -g sass`
 You needs load the project files in a web server, use [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for this.
 
 **Based on:**
+
 - [CSSTricks - glitch effect text images svg](https://css-tricks.com/glitch-effect-text-images-svg/);
 - [OimoTools - Project with real-time text effect alteration](https://oimo-tools.com/glitch/);

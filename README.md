@@ -1,4 +1,4 @@
-# Glitch Effect
+# glitch-effect
 
 (+๑-ᴗ-๑) - "Glitch Effect ?"
 

@@ -5,6 +5,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline #fff;
+}
+
 #value {
   background: #f0f0f0;
   border-radius: 14px;
@@ -34,6 +43,17 @@ body {
   position: relative;
   width: 100%;
   margin: 0 auto;
+}
+
+.left-b-align {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.left-b-align span {
+  font-size: 28px;
+  padding: 0 0 0 10px;
 }
 
 @keyframes noise-anim {
@@ -80,9 +100,15 @@ body {
   animation: noise-anim-2 2.4s infinite linear alternate-reverse;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .glitch {
     width: 320px;
     word-break: break-all;
+  }
+
+  .left-b-align {
+    margin: auto;
+    position: absolute;
+    bottom: 0;
   }
 }

@@ -12,7 +12,7 @@ SASS: `npm install -g sass`
   - `sass --watch input.scss output.css`
 
 - watch and output to directories by using folder paths as your input and output: 
-  - `sass --watch assets/sass:assets/css`
+  - `sass --watch <folder/>sass:<folder/>css`
 
 > sass would **watch all files in the app/sass folder for changes, and compile CSS to the public/stylesheets folder**
 
